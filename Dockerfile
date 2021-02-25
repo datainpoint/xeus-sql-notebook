@@ -10,7 +10,7 @@ FROM jupyter/minimal-notebook:612aa5710bf9
 RUN conda create -n xeus-sql
 RUN echo "source activate env" > ~/.bashrc
 ENV PATH /opt/conda/envs/env/bin:$PATH
-RUN conda install xeus-sql=0.0.8 -c conda-forge
+RUN conda install xeus-sql=0.0.8 jupyterlab -c conda-forge
 # Add RISE to the mix as well so user can show live slideshows from their notebooks
 # More info at https://rise.readthedocs.io
 # Note: Installing RISE with --no-deps because all the neeeded deps are already present.
