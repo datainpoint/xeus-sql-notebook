@@ -1,3 +1,3 @@
-# xeus-cling-notebook
+# xeus-sql-notebook
 
-xeus-cling-notebook is a community maintained Jupyter Docker Stack image
+xeus-sql-notebook is a community maintained Jupyter Docker Stack image
