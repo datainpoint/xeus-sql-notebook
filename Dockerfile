@@ -18,3 +18,5 @@ RUN conda install xeus-sql -c conda-forge
 RUN conda install rise
 # Add nbgitpuller
 RUN pip install nbgitpuller jupyter-resource-usage
+# Add numpy/pandas/matplotlib
+RUN pip install numpy pandas matplotlib
